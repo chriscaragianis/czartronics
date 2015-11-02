@@ -1,10 +1,53 @@
+body {
+  margin: 0;
+}
+
+
+
+a:link, a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: green;
+}
+
 .blog-box {
   background-image: url("blogback1.jpg");
   background-size: cover;
 }
+.posts-box {
+  background-image: url("postsback.jpg");
+  background-size: cover;
+}
+
+.slug-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0.5rem;
+  display: inline-block;
+  margin-left: 7%;
+}
+
+.post-summary {
+  font-size: 1.5rem;
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-left: 10%;
+  width: 45%;
+}
+
+.post-meta {
+  font-size: 1rem;
+  font-family: "PT Mono", "Courier";
+  margin-left: 40%;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+}
 
 .blog-headline {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   background-color: rgba(255, 255, 255, 0.75);
   display: inline-block;
@@ -24,6 +67,35 @@
   text-align: justify;
 }
 
+.nav-tab {
+  font-family: 'PT Mono', 'Courier';
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 2px;
+  position: fixed;
+}
+
+.prev {
+  top: 0;
+  left: 3%;
+}
+
+.next {
+  right: 3%;
+  top: 0;
+}
+
+.home {
+  right: 3%;
+  bottom: 0;
+}
+
+.posts {
+  left: 3%;
+  bottom: 0;
+}
+
+
+
 .p-head {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -38,7 +110,7 @@
 
 .blog-object img {
   width: 100%;
-  margin-bottom: 3%; 
+  margin-bottom: 3%;
 }
 
 .right {

@@ -13,8 +13,20 @@ a:hover {
 }
 
 .blog-box {
-  background-image: url("blogback1.jpg");
-  background-size: cover;
+  background-image: url("civilization.jpg");
+  animation-duration: 10s;
+  animation-name: kenburns;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes kenburns {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
 }
 .posts-box {
   background-image: url("postsback.jpg");

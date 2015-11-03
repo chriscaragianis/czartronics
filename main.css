@@ -12,7 +12,13 @@ a:hover {
   color: green;
 }
 
-.blog-box {
+.blog-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
   background-image: url("civilization.jpg");
   animation-duration: 10s;
   animation-name: kenburns;

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Varela+Round|PT+Mono' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    {{> posts-nav }}
+    <div class="posts-box">
+      <div class="blog-headline">
+          Posts
+      </div>
+      {{#each posts}}
+        <div class="post-slug">
+          <div class="slug-title">
+            <a href="{{href}}">{{title}}</a>
+          </div>
+          <p class="post-summary">
+            {{summary}}
+          </p>
+          <p class="post-meta">
+            {{date}}, Tags: {{tags}}
+          </p>
+        </div>
+      {{/each}}
+    </div>
+  </body>

@@ -1,0 +1,15 @@
+{
+    "sourceDirectory": "src",
+    "destinationDirectory": "dest",
+    "dataDirectory": "data",
+    "partialsDirectory": "partials",
+    "helpersDirectory": "helpers",
+    "data": {
+        "layout": "layout.html.hbs"
+    },
+    "pages": {
+        "src/specialPage.html.hbs": {
+            "layout": "specialLayout.html.hbs"
+        }
+    }
+}

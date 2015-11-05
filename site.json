@@ -5,7 +5,7 @@
     "partialsDirectory": "partials",
     "helpersDirectory": "helpers",
     "data": {
-        "layout": "layout.html.hbs"
+  
     },
     "pages": {
         "src/specialPage.html.hbs": {

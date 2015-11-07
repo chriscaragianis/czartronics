@@ -1,0 +1,19 @@
+{
+  "name": "czartroniks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscaragianis/czartroniks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriscaragianis/czartroniks/issues"
+  },
+  "homepage": "https://github.com/chriscaragianis/czartroniks#readme"
+}

@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/newBlogPost', function (req, res) {
-  newPostRoute['/newBlogPost'].fn(req, res);
+  newPostRoute['/newBlogPost'].fn(req.body, res);
 });
 
 
